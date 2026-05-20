@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos - Observatorio de Derechos Humanos Elvis Vivas</title>
+    <!-- Google Fonts: Inter para un look moderno y limpio -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome para iconos limpios y profesionales -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Estilos del sitio -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- CABECERA / NAVEGACIÓN -->
+    <header class="main-header">
+        <div class="container header-container">
+            <a href="index.html" class="logo-container">
+                <img src="img/logo.png" alt="Logo Observatorio Elvis Vivas" class="logo-img">
+            </a>
+            
+            <!-- Botón de menú móvil -->
+            <button class="mobile-menu-btn" aria-label="Abrir menú">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="index.html#inicio">Inicio</a></li>
+                    <li><a href="quienes-somos.html">Quiénes Somos</a></li>
+                    <li><a href="aliados.html">Aliados</a></li>
+                    <li><a href="proyectos.html" class="active">Proyectos</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <a href="index.html#donar" class="btn btn-primary">Donar</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO DE LA PÁGINA (CON GRADIENTE) -->
+    <section class="page-hero-section projects-hero">
+        <div class="container">
+            <span class="page-hero-tag">Nuestras Iniciativas</span>
+            <h1 class="page-hero-title">Proyectos de Impacto</h1>
+            <div class="page-hero-divider"></div>
+            <p class="page-hero-subtitle">Conoce las campañas, programas de asistencia y líneas de acción con las que transformamos la vida de las comunidades vulnerables.</p>
+        </div>
+    </section>
+
+    <!-- SECCIÓN INTRODUCCIÓN -->
+    <section class="projects-intro-section">
+        <div class="container">
+            <div class="projects-intro-content">
+                <h2 class="section-title">Construyendo Alternativas de Paz</h2>
+                <div class="section-underline"></div>
+                <p class="projects-intro-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nunc pretium, tristique nunc ac, elementum erat. Suspendisse pulvinar sem sed velit varius porta. Integer sollicitudin justo erat, id feugiat elit consequat ut. Duis vitae leo at magna hendrerit molestie. Sed bibendum pulvinar sodales. Phasellus eget nunc finibus, luctus neque eu, gravida nibh. Nunc tempor tellus non enim euismod commodo. Mauris convallis risus tortor, eget consequat erat eleifend ut.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- IMAGEN DE CONTEXTO CON EFECTO PARALLAX -->
+    <section class="projects-parallax-banner">
+        <div class="projects-parallax-overlay"></div>
+        <div class="container">
+            <div class="projects-parallax-content">
+                <h3 class="parallax-heading">Defensa Comunitaria y Cohesión Social</h3>
+                <p class="parallax-text">Apoyamos a las familias y comunidades en la protección de sus derechos humanos y civiles.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- LISTADO DE PROYECTOS (ESTRUCTURA DE REFERENCIA: ALTERNADOS) -->
+    <section class="projects-list-section">
+        <div class="container">
+            <div class="projects-list">
+                
+                <!-- Proyecto 1 (Texto izquierda, Imagen derecha) -->
+                <div class="project-row">
+                    <div class="project-row-content">
+                        <span class="project-row-category">Apoyo Educativo</span>
+                        <h3 class="project-row-title">Empoderando futuros a través de la educación</h3>
+                        <p class="project-row-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec elementum ex, vitae interdum ipsum. Pellentesque tempor massa a augue sodales, ut interdum dolor iaculis. Integer sed nunc congue, euismod purus vitae, consequat risus. Proin id felis dictum, eleifend lorem at, vestibulum tortor.</p>
+                        <a href="#" class="btn btn-primary">Conocer más <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                    <div class="project-row-media">
+                        <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=600" alt="Educación de la comunidad" class="project-row-img">
+                    </div>
+                </div>
+
+                <!-- Proyecto 2 (Imagen izquierda, Texto derecha) -->
+                <div class="project-row">
+                    <div class="project-row-content">
+                        <span class="project-row-category">Iniciativas de Salud</span>
+                        <h3 class="project-row-title">Servicios y planes de salud esenciales</h3>
+                        <p class="project-row-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec elementum ex, vitae interdum ipsum. Pellentesque tempor massa a augue sodales, ut interdum dolor iaculis. Integer sed nunc congue, euismod purus vitae, consequat risus. Proin id felis dictum, eleifend lorem at, vestibulum tortor.</p>
+                        <a href="#" class="btn btn-primary">Conocer más <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                    <div class="project-row-media">
+                        <img src="https://images.unsplash.com/photo-1509099836639-18ba1795216d?q=80&w=600" alt="Planes de salud comunitarios" class="project-row-img">
+                    </div>
+                </div>
+
+                <!-- Proyecto 3 (Texto izquierda, Imagen derecha) -->
+                <div class="project-row">
+                    <div class="project-row-content">
+                        <span class="project-row-category">Programas de Empleo</span>
+                        <h3 class="project-row-title">Creando sustentos de vida sostenibles</h3>
+                        <p class="project-row-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec elementum ex, vitae interdum ipsum. Pellentesque tempor massa a augue sodales, ut interdum dolor iaculis. Integer sed nunc congue, euismod purus vitae, consequat risus. Proin id felis dictum, eleifend lorem at, vestibulum tortor.</p>
+                        <a href="#" class="btn btn-primary">Conocer más <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                    <div class="project-row-media">
+                        <img src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=600" alt="Sustento comunitario sostenible" class="project-row-img">
+                    </div>
+                </div>
+
+                <!-- Proyecto 4 (Imagen izquierda, Texto derecha) -->
+                <div class="project-row">
+                    <div class="project-row-content">
+                        <span class="project-row-category">Acceso al Agua</span>
+                        <h3 class="project-row-title">Garantizando el acceso a agua limpia</h3>
+                        <p class="project-row-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec elementum ex, vitae interdum ipsum. Pellentesque tempor massa a augue sodales, ut interdum dolor iaculis. Integer sed nunc congue, euismod purus vitae, consequat risus. Proin id felis dictum, eleifend lorem at, vestibulum tortor.</p>
+                        <a href="#" class="btn btn-primary">Conocer más <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                    <div class="project-row-media">
+                        <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=600" alt="Acceso a agua potable" class="project-row-img">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- PIE DE PÁGINA (FOOTER) -->
+    <footer class="main-footer">
+        <div class="container footer-container">
+            <div class="footer-logo">
+                <img src="img/logo.png" alt="Logo Observatorio Elvis Vivas" class="footer-logo-img">
+            </div>
+            
+            <div class="footer-socials">
+                <a href="#" class="social-link" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" class="social-link" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" class="social-link" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="social-link" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+
+            <div class="footer-contact">
+                <p><i class="fa-solid fa-envelope"></i> <a href="mailto:observatorioelvisvivas@gmail.com">observatorioelvisvivas@gmail.com</a></p>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Observatorio de Derechos Humanos Elvis Vivas. Todos los derechos reservados. Diseñado como Mockup.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script para comportamiento interactivo básico -->
+    <script src="main.js"></script>
+</body>
+</html>

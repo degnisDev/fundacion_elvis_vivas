@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog y Noticias - Observatorio de Derechos Humanos Elvis Vivas</title>
+    <!-- Google Fonts: Inter para un look moderno y limpio -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome para iconos limpios y profesionales -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Estilos del sitio -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- CABECERA / NAVEGACIÓN -->
+    <header class="main-header">
+        <div class="container header-container">
+            <a href="index.html" class="logo-container">
+                <img src="img/logo.png" alt="Logo Observatorio Elvis Vivas" class="logo-img">
+            </a>
+            
+            <!-- Botón de menú móvil -->
+            <button class="mobile-menu-btn" aria-label="Abrir menú">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="index.html#inicio">Inicio</a></li>
+                    <li><a href="quienes-somos.html">Quiénes Somos</a></li>
+                    <li><a href="aliados.html">Aliados</a></li>
+                    <li><a href="proyectos.html">Proyectos</a></li>
+                    <li><a href="blog.html" class="active">Blog</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <a href="index.html#donar" class="btn btn-primary">Donar</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO DE LA PÁGINA (CON GRADIENTE Y PARALLAX) -->
+    <section class="page-hero-section blog-hero">
+        <div class="container">
+            <span class="page-hero-tag">Actualidad y Análisis</span>
+            <h1 class="page-hero-title">Blog y Noticias</h1>
+            <div class="page-hero-divider"></div>
+            <p class="page-hero-subtitle">Infórmate sobre nuestras últimas actividades, pronunciamientos públicos e informes de derechos humanos en el territorio.</p>
+        </div>
+    </section>
+
+    <!-- SECCIÓN BLOG PRINCIPAL -->
+    <section class="blog-section">
+        <div class="container">
+            
+            <!-- Categorías de Filtrado (Mockup visual) -->
+            <div class="blog-categories">
+                <button class="category-btn active">Todos</button>
+                <button class="category-btn">Derechos Humanos</button>
+                <button class="category-btn">Comunicados</button>
+                <button class="category-btn">Informes</button>
+                <button class="category-btn">Comunidad</button>
+            </div>
+
+            <!-- Grilla de Artículos (3 columnas en desktop) -->
+            <div class="blog-grid">
+                
+                <!-- Artículo 1 -->
+                <article class="blog-card">
+                    <div class="blog-card-media">
+                        <img src="https://images.unsplash.com/photo-1450133064473-71024230f91b?q=80&w=600" alt="Informe de Derechos Humanos" class="blog-card-img">
+                        <span class="blog-card-tag">Informes</span>
+                    </div>
+                    <div class="blog-card-info">
+                        <span class="blog-card-date"><i class="fa-regular fa-calendar"></i> 15 de Mayo, 2026</span>
+                        <h3 class="blog-card-title"><a href="#">Presentación del Informe sobre la situación de DDHH en el territorio</a></h3>
+                        <p class="blog-card-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nunc pretium, tristique nunc ac, elementum erat. Suspendisse pulvinar sem sed velit varius porta.</p>
+                        <a href="#" class="blog-card-link">Leer más <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Artículo 2 -->
+                <article class="blog-card">
+                    <div class="blog-card-media">
+                        <img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?q=80&w=600" alt="Alianza Internacional" class="blog-card-img">
+                        <span class="blog-card-tag">Comunicados</span>
+                    </div>
+                    <div class="blog-card-info">
+                        <span class="blog-card-date"><i class="fa-regular fa-calendar"></i> 10 de Mayo, 2026</span>
+                        <h3 class="blog-card-title"><a href="#">Consolidación de nuestra alianza con organismos internacionales</a></h3>
+                        <p class="blog-card-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nunc pretium, tristique nunc ac, elementum erat. Suspendisse pulvinar sem sed velit varius porta.</p>
+                        <a href="#" class="blog-card-link">Leer más <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Artículo 3 -->
+                <article class="blog-card">
+                    <div class="blog-card-media">
+                        <img src="https://images.unsplash.com/photo-1531538606174-0f90ff5dce83?q=80&w=600" alt="Taller formativo" class="blog-card-img">
+                        <span class="blog-card-tag">Comunidad</span>
+                    </div>
+                    <div class="blog-card-info">
+                        <span class="blog-card-date"><i class="fa-regular fa-calendar"></i> 02 de Mayo, 2026</span>
+                        <h3 class="blog-card-title"><a href="#">Culminación del programa formativo para jóvenes veedores comunitarios</a></h3>
+                        <p class="blog-card-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nunc pretium, tristique nunc ac, elementum erat. Suspendisse pulvinar sem sed velit varius porta.</p>
+                        <a href="#" class="blog-card-link">Leer más <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Artículo 4 -->
+                <article class="blog-card">
+                    <div class="blog-card-media">
+                        <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=600" alt="Evento por la memoria" class="blog-card-img">
+                        <span class="blog-card-tag">Eventos</span>
+                    </div>
+                    <div class="blog-card-info">
+                        <span class="blog-card-date"><i class="fa-regular fa-calendar"></i> 28 de Abril, 2026</span>
+                        <h3 class="blog-card-title"><a href="#">Acto simbólico y cultural por la memoria de las víctimas de abuso</a></h3>
+                        <p class="blog-card-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nunc pretium, tristique nunc ac, elementum erat. Suspendisse pulvinar sem sed velit varius porta.</p>
+                        <a href="#" class="blog-card-link">Leer más <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Artículo 5 -->
+                <article class="blog-card">
+                    <div class="blog-card-media">
+                        <img src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=600" alt="Asistencia Jurídica" class="blog-card-img">
+                        <span class="blog-card-tag">Derechos Humanos</span>
+                    </div>
+                    <div class="blog-card-info">
+                        <span class="blog-card-date"><i class="fa-regular fa-calendar"></i> 18 de Abril, 2026</span>
+                        <h3 class="blog-card-title"><a href="#">Jornada integral de asesoramiento jurídico en zonas vulnerables</a></h3>
+                        <p class="blog-card-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nunc pretium, tristique nunc ac, elementum erat. Suspendisse pulvinar sem sed velit varius porta.</p>
+                        <a href="#" class="blog-card-link">Leer más <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Artículo 6 -->
+                <article class="blog-card">
+                    <div class="blog-card-media">
+                        <img src="https://images.unsplash.com/photo-1509099836639-18ba1795216d?q=80&w=600" alt="Donaciones de la comunidad" class="blog-card-img">
+                        <span class="blog-card-tag">Comunidad</span>
+                    </div>
+                    <div class="blog-card-info">
+                        <span class="blog-card-date"><i class="fa-regular fa-calendar"></i> 05 de Abril, 2026</span>
+                        <h3 class="blog-card-title"><a href="#">Apertura del nuevo canal de donaciones para el apoyo a familias</a></h3>
+                        <p class="blog-card-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nunc pretium, tristique nunc ac, elementum erat. Suspendisse pulvinar sem sed velit varius porta.</p>
+                        <a href="#" class="blog-card-link">Leer más <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- PIE DE PÁGINA (FOOTER) -->
+    <footer class="main-footer">
+        <div class="container footer-container">
+            <div class="footer-logo">
+                <img src="img/logo.png" alt="Logo Observatorio Elvis Vivas" class="footer-logo-img">
+            </div>
+            
+            <div class="footer-socials">
+                <a href="#" class="social-link" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" class="social-link" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" class="social-link" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="social-link" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+
+            <div class="footer-contact">
+                <p><i class="fa-solid fa-envelope"></i> <a href="mailto:observatorioelvisvivas@gmail.com">observatorioelvisvivas@gmail.com</a></p>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Observatorio de Derechos Humanos Elvis Vivas. Todos los derechos reservados. Diseñado como Mockup.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script para comportamiento interactivo básico -->
+    <script src="main.js"></script>
+</body>
+</html>

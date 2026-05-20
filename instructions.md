@@ -39,3 +39,22 @@ QUIENES SOMOS
 - Se repite el Footer de HOME
 
 Agrega algo de diseno para que se diferencie un poco del Home, quiza unos gradientes.
+
+
+ALIADOS
+
+
+
+- Manos Unidas (Un parrafo de texto loren Ipsun) misma foto que tienen en el Home
+-  Galeria de proyectos (diseno diferente al principal y al de proyectos), cuadricula 3 * 3. Fotos de contxto reales de Internet
+- Se repite el Footer de HOME
+
+
+PROYECTOS
+
+-  Introduccion (Un parrafo de texto loren Ipsun)
+- Imagen de contexto de personas ayudando a una comunidad, imagen de Google. Efecto Parallax
+- Galeria de proyectos con la estructura de la imagen de referencia (4 proyectos)
+- Se repite el Footer de HOME
+
+
