@@ -30,3 +30,12 @@ Debe tener:
 
 QUIENES SOMOS
 
+
+- Historia (Un parrafo de texto loren Ipsun)
+- Nuestro Equipo: (Fotogtrafia de contexto, Real, de Google) y breve Biografia.
+- Mision (Un parrafo de texto loren Ipsun)
+- Vision (Un parrafo de texto loren Ipsun)
+- Objetivos (Un parrafo de texto loren Ipsun)
+- Se repite el Footer de HOME
+
+Agrega algo de diseno para que se diferencie un poco del Home, quiza unos gradientes.
