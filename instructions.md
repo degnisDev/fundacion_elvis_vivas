@@ -26,3 +26,7 @@ Debe tener:
 
 6 - Footer con logo en el centro -  botones de redes sociales - correo electronico "observatorioelvisvivas@gmail"
 
+
+
+QUIENES SOMOS
+

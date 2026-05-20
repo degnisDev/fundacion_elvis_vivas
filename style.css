@@ -195,29 +195,34 @@ body {
     cursor: pointer;
 }
 
-/* SECCIÓN HERO (PORTADA) */
+/* SECCIÓN HERO (PORTADA CON FONDO COMPLETO) */
 .hero-section {
-    padding: 80px 0;
-    background-color: var(--bg-white);
-    border-bottom: 1px solid var(--border-color);
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.75)), url('img/img_banner.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+    border-bottom: 5px solid var(--accent-color);
 }
 
 .hero-container {
-    display: grid;
-    grid-template-columns: 1.1fr 0.9fr;
-    gap: 48px;
-    align-items: center;
+    display: block;
 }
 
 .hero-content {
+    max-width: 750px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
 .hero-badge {
-    background-color: rgba(229, 62, 62, 0.1);
-    color: var(--accent-color);
+    background-color: rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.25);
     padding: 6px 14px;
     border-radius: 50px;
     font-size: 0.85rem;
@@ -228,27 +233,26 @@ body {
 }
 
 .hero-title {
-    font-size: 2.8rem;
+    font-size: 3.2rem;
     font-weight: 800;
     line-height: 1.15;
-    color: var(--primary-color);
+    color: #ffffff;
     margin-bottom: 20px;
+}
+
+.hero-title .text-highlight {
+    color: #ff5252; /* Rojo más brillante para mejor legibilidad sobre fondo oscuro */
 }
 
 .hero-subtitle {
-    font-size: 1.25rem;
-    font-weight: 600;
-    color: var(--accent-color);
-    margin-bottom: 20px;
+    font-size: 1.35rem;
+    font-weight: 500;
+    color: #f7fafc;
+    margin-bottom: 32px;
     border-left: 4px solid var(--accent-color);
     padding-left: 16px;
     font-style: italic;
-}
-
-.hero-description {
-    font-size: 1.05rem;
-    color: var(--text-muted);
-    margin-bottom: 32px;
+    line-height: 1.4;
 }
 
 .hero-btns {
@@ -256,17 +260,14 @@ body {
     gap: 16px;
 }
 
-.hero-media {
-    position: relative;
+.hero-section .btn-secondary {
+    color: #ffffff;
+    border-color: #ffffff;
 }
 
-.hero-img {
-    width: 100%;
-    border-radius: 12px;
-    box-shadow: var(--shadow-lg);
-    object-fit: cover;
-    aspect-ratio: 4/3;
-    border-bottom: 6px solid var(--accent-color);
+.hero-section .btn-secondary:hover {
+    background-color: #ffffff;
+    color: var(--primary-color);
 }
 
 /* SECCIÓN INDICADORES (ESTADÍSTICAS) */
@@ -611,14 +612,15 @@ body {
    ========================================================================== */
 
 @media (max-width: 992px) {
-    .hero-container {
-        grid-template-columns: 1fr;
+    .hero-section {
+        min-height: 70vh;
         text-align: center;
-        gap: 40px;
+        padding: 60px 0;
     }
     
     .hero-content {
         align-items: center;
+        margin: 0 auto;
     }
     
     .hero-subtitle {
