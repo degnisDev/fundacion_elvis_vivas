@@ -273,8 +273,8 @@ body {
 /* SECCIÓN INDICADORES (ESTADÍSTICAS) */
 .stats-section {
     padding: 60px 0;
-    background-color: var(--primary-color);
-    color: var(--bg-white);
+    background-color: #f0f4f8; /* Gris claro/azulado profesional */
+    color: var(--text-color);
 }
 
 .stats-grid {
@@ -284,17 +284,19 @@ body {
 }
 
 .stat-card {
-    background-color: rgba(255, 255, 255, 0.03);
+    background-color: var(--bg-white); /* Tarjetas blancas */
     padding: 32px 20px;
     border-radius: 8px;
     text-align: center;
-    border-top: 4px solid var(--accent-color);
-    transition: transform var(--transition-speed) ease;
+    border: 1px solid var(--border-color);
+    border-top: 4px solid var(--accent-color); /* Borde superior rojo */
+    box-shadow: var(--shadow-md); /* Sombra suave para que resalten */
+    transition: all var(--transition-speed) ease;
 }
 
 .stat-card:hover {
     transform: translateY(-5px);
-    background-color: rgba(255, 255, 255, 0.05);
+    box-shadow: var(--shadow-lg); /* Sombra más fuerte al pasar el mouse */
 }
 
 .stat-icon {
@@ -306,6 +308,7 @@ body {
 .stat-number {
     font-size: 2.5rem;
     font-weight: 800;
+    color: var(--primary-color);
     margin-bottom: 8px;
 }
 
@@ -313,12 +316,12 @@ body {
     font-size: 1rem;
     font-weight: 600;
     margin-bottom: 8px;
-    color: #e2e8f0;
+    color: var(--primary-color);
 }
 
 .stat-desc {
     font-size: 0.8rem;
-    color: #a0aec0;
+    color: var(--text-muted);
 }
 
 /* SECCIÓN ENCABEZADOS COMUNES */
