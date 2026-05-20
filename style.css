@@ -1589,4 +1589,19 @@ body {
         padding: 8px 16px;
         font-size: 0.85rem;
     }
+
+    /* Ajustes tipográficos y de fondos en móvil */
+    .page-hero-title {
+        font-size: 2.2rem;
+    }
+    .parallax-heading {
+        font-size: 1.7rem;
+    }
+    .projects-parallax-banner,
+    .page-hero-section {
+        background-attachment: scroll !important;
+    }
+    .project-row-title {
+        font-size: 1.4rem;
+    }
 }
